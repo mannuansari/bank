@@ -1,0 +1,40 @@
+<%-include('nav')-%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <hr>
+    <h3>Welcome &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp; <%=name%>   &emsp;  &emsp;  &emsp;  &emsp;  &emsp; 
+    <a href="/lout" class="btn btn-danger">Logout</a>
+
+    </h3>
+    <hr>
+    <div class="row">
+
+        <center><h1><%=msg%></h1></center>
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <center><h1>Account With-draw page</h1><hr></center>
+
+            <br>
+            
+            
+            <form>
+                
+               
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Amount to Withdraw</label>
+                    <input type="text" class="form-control"  name="amo">
+                  </div>
+                  
+                <button type="submit" class="btn btn-success" name="submit" value="Fund-Transfer">Withdraw amount</button>
+            </form>
+
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    
+</body>
+</html>
